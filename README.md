@@ -9,4 +9,4 @@ A collection of add-on boards containing an iCE40 FPGA and the required supporti
 -QWIIC-only breakout?
 
 ## Testing hardware
-![iCE40 Breakout](Documentation/readme_images/iCE40_Breakout.jpg)
+![iCE40 Breakout](<Documentation/readme_images/iCE40 Breakout.jpg>)
