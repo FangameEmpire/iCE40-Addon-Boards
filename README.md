@@ -14,3 +14,7 @@ A collection of add-on boards containing an iCE40 FPGA and the required supporti
 
 ## Testing hardware
 ![iCE40 Breakout](<Documentation/readme_images/iCE40 Breakout.jpg>)
+
+## Addon board mockups
+Work-in-progress screenshots of boards still being designed.
+![Pi Pico floorplan](<Documentation/readme_images/Pi Pico floorplan.jpg>)
