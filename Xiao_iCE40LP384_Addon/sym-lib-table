@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADP322ACPZ-145-R7")(type "KiCad")(uri "C:/Users/Nicklaus/Documents/Top Hat Hardware Co/GitHub Repos/iCE40-Addon-Boards/Components/ADP322ACPZ-145-R7/ADP322ACPZ-145-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "ICE40LP384_SG32")(type "KiCad")(uri "C:/Users/Nicklaus/Documents/Top Hat Hardware Co/GitHub Repos/iCE40-Addon-Boards/Components/ICE40LP384_SG32/ICE40LP384_SG32.kicad_sym")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "C:/Users/Nicklaus/Documents/Top Hat Hardware Co/GitHub Repos/iCE40-Addon-Boards/Components/XIAO Footprints and Symbols/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+)

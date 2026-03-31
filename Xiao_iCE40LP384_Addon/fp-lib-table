@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ICE40LP384_SG32")(type "KiCad")(uri "C:/Users/Nicklaus/Documents/Top Hat Hardware Co/GitHub Repos/iCE40-Addon-Boards/Components/ICE40LP384_SG32/ICE40LP384_SG32.pretty")(options "")(descr ""))
+  (lib (name "ADP322ACPZ-145-R7")(type "KiCad")(uri "C:/Users/Nicklaus/Documents/Top Hat Hardware Co/GitHub Repos/iCE40-Addon-Boards/Components/ADP322ACPZ-145-R7/ADP322ACPZ-145-R7.pretty")(options "")(descr ""))
+  (lib (name "XIAO Footprints and Symbols")(type "KiCad")(uri "C:/Users/Nicklaus/Documents/Top Hat Hardware Co/GitHub Repos/iCE40-Addon-Boards/Components/XIAO Footprints and Symbols")(options "")(descr ""))
+)

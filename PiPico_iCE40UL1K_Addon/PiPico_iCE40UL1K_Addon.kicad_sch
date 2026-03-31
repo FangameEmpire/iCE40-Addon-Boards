@@ -5375,6 +5375,16 @@
 		(uuid "671358f3-d5de-448e-946a-c8c43632fde7")
 	)
 	(label "GND"
+		(at 158.75 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73dd7440-199d-44f4-81a0-89ca394cabe2")
+	)
+	(label "GND"
 		(at 88.9 133.35 0)
 		(effects
 			(font
