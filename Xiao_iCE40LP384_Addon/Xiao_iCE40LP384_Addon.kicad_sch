@@ -3566,8 +3566,8 @@
 		)
 	)
 	(rectangle
-		(start 201.93 110.49)
-		(end 237.49 144.78)
+		(start 201.93 101.6)
+		(end 237.49 135.89)
 		(stroke
 			(width 0)
 			(type default)
@@ -3579,7 +3579,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 201.93 144.78 0)
+		(at 201.93 135.89 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3587,6 +3587,17 @@
 			(justify left bottom)
 		)
 		(uuid "54cf4ace-ab1d-48ea-8b5d-c3d33d015f54")
+	)
+	(text "TODO:\n-Pads for unconnected IO\n-QWIIC?"
+		(exclude_from_sim no)
+		(at 14.732 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3cfe559-393c-4e52-b5bb-e42633252d04")
 	)
 	(junction
 		(at 148.59 154.94)
@@ -3607,10 +3618,28 @@
 		(uuid "448a82bd-f584-412d-b7ed-e9e9365b3f40")
 	)
 	(junction
-		(at 213.36 127)
+		(at 199.39 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51346207-0651-4222-89e4-7d3cc1b76e04")
+	)
+	(junction
+		(at 213.36 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58d77503-c6bf-4fdb-a504-f458def168cb")
+	)
+	(junction
+		(at 148.59 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f2ec432-1dba-47aa-b23f-d1df9d58ca70")
+	)
+	(junction
+		(at 135.89 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63327d0e-e06c-4fff-add5-6e884a08658f")
 	)
 	(junction
 		(at 123.19 154.94)
@@ -3631,6 +3660,12 @@
 		(uuid "81855b4b-d5f5-466c-9832-2822aa500793")
 	)
 	(junction
+		(at 186.69 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f62233-f7d0-4344-98c4-bcf0d9eeab3f")
+	)
+	(junction
 		(at 135.89 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3642,9 +3677,147 @@
 		(color 0 0 0 0)
 		(uuid "f819b8b0-f973-4033-8ebb-e4a99e133973")
 	)
+	(no_connect
+		(at 146.05 54.61)
+		(uuid "1625e276-9921-41ec-987a-f86e66e71afd")
+	)
+	(no_connect
+		(at 146.05 69.85)
+		(uuid "1a519f5e-5999-4983-9c45-5e9435657481")
+	)
+	(no_connect
+		(at 171.45 43.18)
+		(uuid "22ea8094-3bef-472e-8e34-69a436eb6cf9")
+	)
+	(no_connect
+		(at 165.1 87.63)
+		(uuid "255b4cee-8896-473d-bca9-7b9bed48e328")
+	)
+	(no_connect
+		(at 129.54 101.6)
+		(uuid "25d0c201-ebe6-430b-8a65-1385dd47d3a0")
+	)
+	(no_connect
+		(at 187.96 62.23)
+		(uuid "2d3c65d0-caca-4fed-8344-18c7b94a3f16")
+	)
+	(no_connect
+		(at 129.54 121.92)
+		(uuid "2d91457c-db0e-4cfb-a0ee-506b1cbcd0ab")
+	)
+	(no_connect
+		(at 187.96 58.42)
+		(uuid "42a43b0b-983d-408a-b8c0-b97d8fc7d000")
+	)
+	(no_connect
+		(at 146.05 77.47)
+		(uuid "43526272-b43b-4bb8-89b2-1e696aa69568")
+	)
+	(no_connect
+		(at 187.96 66.04)
+		(uuid "469d61f5-49f3-4302-bd7f-2f0acca53ccd")
+	)
+	(no_connect
+		(at 129.54 83.82)
+		(uuid "53a09d3a-75c5-467d-b079-7fa6e1800301")
+	)
+	(no_connect
+		(at 129.54 93.98)
+		(uuid "55cfb886-98f1-4a5c-ab21-190d025b9eaf")
+	)
+	(no_connect
+		(at 129.54 60.96)
+		(uuid "5b512362-86a0-4079-924d-33a226bd541d")
+	)
+	(no_connect
+		(at 129.54 109.22)
+		(uuid "6cd6e471-b252-4a53-b6cb-d37ace94bf3d")
+	)
+	(no_connect
+		(at 129.54 119.38)
+		(uuid "76844d33-d5e6-4941-a314-66070c27aeb0")
+	)
+	(no_connect
+		(at 129.54 73.66)
+		(uuid "7811ed03-4885-4815-b2ce-921231d202e9")
+	)
+	(no_connect
+		(at 187.96 69.85)
+		(uuid "7e021865-e398-4760-b078-5afeef3ac3d5")
+	)
+	(no_connect
+		(at 129.54 58.42)
+		(uuid "81034754-b010-4fea-a803-0027eebf3928")
+	)
+	(no_connect
+		(at 146.05 58.42)
+		(uuid "81b8e059-6184-4d5b-aab5-1c11df1e98ea")
+	)
+	(no_connect
+		(at 187.96 73.66)
+		(uuid "86f48fa1-9482-47c5-9b15-189720149f7a")
+	)
+	(no_connect
+		(at 129.54 116.84)
+		(uuid "88c65b47-c7b4-4704-85d5-a2dacd6cba35")
+	)
+	(no_connect
+		(at 146.05 62.23)
+		(uuid "966dc494-549f-4be7-bd73-38181f806d95")
+	)
+	(no_connect
+		(at 187.96 77.47)
+		(uuid "9ac6e3dc-8cfe-4cf9-a9c2-daffa6fc9d96")
+	)
+	(no_connect
+		(at 167.64 43.18)
+		(uuid "b3333918-bd55-4826-8924-8038b62e938d")
+	)
+	(no_connect
+		(at 170.18 87.63)
+		(uuid "b54faea8-019a-4899-9c84-0d4029b8dd78")
+	)
+	(no_connect
+		(at 129.54 71.12)
+		(uuid "b805be90-5f07-4985-8a5c-00bfcf9ab94f")
+	)
+	(no_connect
+		(at 175.26 43.18)
+		(uuid "c800790b-ee71-4eb5-b8a2-8ea624bb22b0")
+	)
+	(no_connect
+		(at 163.83 43.18)
+		(uuid "d5663519-6879-4b27-b1f1-dbf76fd8ec0e")
+	)
+	(no_connect
+		(at 146.05 73.66)
+		(uuid "ea4bcce6-0ad1-42ce-8ae9-c52e08c61764")
+	)
+	(no_connect
+		(at 146.05 66.04)
+		(uuid "ea69c790-f2f4-4b69-aa87-b25e04353a2c")
+	)
+	(no_connect
+		(at 129.54 81.28)
+		(uuid "fdf6ef69-7e35-4a4f-af32-25599191462f")
+	)
+	(no_connect
+		(at 187.96 54.61)
+		(uuid "fe856f40-4f85-451c-9f79-053b77b1eba3")
+	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 213.36 116.84)
+			(xy 186.69 154.94) (xy 199.39 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01463f24-6f3a-4d60-88ec-4e5745a0c5ef")
+	)
+	(wire
+		(pts
+			(xy 213.36 105.41) (xy 213.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3654,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 213.36 127)
+			(xy 213.36 115.57) (xy 213.36 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3684,13 +3857,33 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 226.06 138.43)
+			(xy 226.06 130.81) (xy 226.06 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23c8d271-ffc7-455d-b7ef-ba6013ad3c4b")
+	)
+	(wire
+		(pts
+			(xy 229.87 76.2) (xy 229.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276f46ca-01bf-49fb-be62-2bdcd22ab79d")
+	)
+	(wire
+		(pts
+			(xy 25.4 73.66) (xy 25.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe9a592-b8d6-484d-a48e-967080fe2498")
 	)
 	(wire
 		(pts
@@ -3744,7 +3937,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 213.36 139.7)
+			(xy 226.06 130.81) (xy 213.36 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3761,6 +3954,16 @@
 			(type default)
 		)
 		(uuid "5b2e07fd-a205-4db6-a3a1-b573bba4f442")
+	)
+	(wire
+		(pts
+			(xy 123.19 147.32) (xy 135.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63953e86-ba1c-48e9-abf2-f4eb1ea0f47f")
 	)
 	(wire
 		(pts
@@ -3804,13 +4007,43 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 127) (xy 213.36 129.54)
+			(xy 199.39 147.32) (xy 212.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9754ee-0c2f-48ae-a64a-79b7d94906de")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 213.36 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7fc65793-bc72-41ca-90d1-fffe923c56ca")
+	)
+	(wire
+		(pts
+			(xy 199.39 154.94) (xy 212.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c78aa9a-5c48-43ea-afb1-8b1729cc3a4b")
+	)
+	(wire
+		(pts
+			(xy 229.87 86.36) (xy 229.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6acc04-9f93-4934-9531-1ccbed2c0c19")
 	)
 	(wire
 		(pts
@@ -3834,6 +4067,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 86.36) (xy 25.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35d1411-427b-4d49-84c4-4bdaee3cfd04")
+	)
+	(wire
+		(pts
 			(xy 207.01 86.36) (xy 207.01 88.9)
 		)
 		(stroke
@@ -3841,6 +4084,16 @@
 			(type default)
 		)
 		(uuid "ca5a39ab-fc9d-4c2b-88f8-e45184bd7d1c")
+	)
+	(wire
+		(pts
+			(xy 34.29 86.36) (xy 34.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4550f6a-fd11-4590-9427-c7ad232d4496")
 	)
 	(wire
 		(pts
@@ -3864,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 147.32) (xy 161.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47cf179-9f0f-41a0-a98d-a22829d99579")
+	)
+	(wire
+		(pts
 			(xy 251.46 104.14) (xy 251.46 106.68)
 		)
 		(stroke
@@ -3884,6 +4147,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 147.32) (xy 148.59 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece342c7-2ce9-4b81-8ea3-a16b51c171d4")
+	)
+	(wire
+		(pts
 			(xy 110.49 154.94) (xy 123.19 154.94)
 		)
 		(stroke
@@ -3894,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 226.06 128.27)
+			(xy 226.06 118.11) (xy 226.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3914,7 +4187,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 137.16) (xy 213.36 139.7)
+			(xy 34.29 73.66) (xy 34.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25c00d1-107e-4ed1-b4a4-614ad57d280f")
+	)
+	(wire
+		(pts
+			(xy 213.36 128.27) (xy 213.36 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3924,13 +4207,23 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 127) (xy 226.06 127)
+			(xy 213.36 118.11) (xy 226.06 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff05dc15-a31f-48be-8d63-2eb17d08f368")
+	)
+	(label "D8_SCK"
+		(at 171.45 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03b0e781-e8b1-4353-aea1-dab2af250a79")
 	)
 	(label "VCCIO"
 		(at 214.63 88.9 180)
@@ -3941,6 +4234,16 @@
 			(justify right bottom)
 		)
 		(uuid "042aa9fd-ee08-4f02-ad74-e1194592a444")
+	)
+	(label "5V0"
+		(at 229.87 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05660aa4-32b3-42f5-afe8-4db1385ecfc0")
 	)
 	(label "GND"
 		(at 196.85 62.23 180)
@@ -3972,6 +4275,26 @@
 		)
 		(uuid "12a6ed63-11e7-42de-bda7-40414acf4fd9")
 	)
+	(label "D0"
+		(at 152.4 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1334cf49-5700-4c21-b75b-941842365f63")
+	)
+	(label "D9_MOSI"
+		(at 129.54 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13b1871d-e0e3-4c7c-a565-b9039cd04317")
+	)
 	(label "VCC_SPI"
 		(at 173.99 147.32 180)
 		(effects
@@ -3981,6 +4304,16 @@
 			(justify right bottom)
 		)
 		(uuid "1a089c26-116b-4671-be3f-43b95ca7bfbe")
+	)
+	(label "D10_MISO"
+		(at 171.45 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a37e1ec-82c2-49e9-aed0-a4df5ccd76b3")
 	)
 	(label "VCC"
 		(at 208.28 54.61 180)
@@ -4002,6 +4335,16 @@
 		)
 		(uuid "2c26d010-1617-49ab-980f-f38dad1afcd4")
 	)
+	(label "D4_SDA"
+		(at 129.54 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c875382-fa9f-451c-be99-8207844e5020")
+	)
 	(label "1V2"
 		(at 196.85 76.2 180)
 		(effects
@@ -4012,8 +4355,28 @@
 		)
 		(uuid "31495c98-bfe8-437c-b621-797c7d4fd88f")
 	)
+	(label "D3"
+		(at 129.54 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32e3e8ef-4cea-4931-88b9-e56939569d75")
+	)
+	(label "GND"
+		(at 171.45 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38c509cc-f16f-42ec-9b7a-5265fb7f6c8e")
+	)
 	(label "VCCIO"
-		(at 213.36 114.3 180)
+		(at 213.36 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4021,16 +4384,6 @@
 			(justify right bottom)
 		)
 		(uuid "3bf96a36-79d6-470a-bf7d-31d24d2ed2c3")
-	)
-	(label "VCCIO"
-		(at 135.89 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "401cc6f9-431f-46b8-8f58-310a7c3993f7")
 	)
 	(label "VPP"
 		(at 243.84 54.61 180)
@@ -4072,6 +4425,16 @@
 		)
 		(uuid "4bfb4596-0586-476a-889a-bd57570a1866")
 	)
+	(label "D1"
+		(at 34.29 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c66e3fd-5924-4fbf-b0a3-372be71eaf07")
+	)
 	(label "VCC"
 		(at 129.54 76.2 0)
 		(effects
@@ -4112,6 +4475,26 @@
 		)
 		(uuid "54b7ca30-e9c3-42ab-8771-6048a682149f")
 	)
+	(label "CDONE"
+		(at 34.29 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c4fbfef-5bef-406c-b27d-63cb3e0c0d50")
+	)
+	(label "D8_SCK"
+		(at 129.54 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "613db2c0-3609-4a8c-bf6a-2f5094a9497e")
+	)
 	(label "5V0"
 		(at 33.02 162.56 180)
 		(effects
@@ -4132,6 +4515,56 @@
 		)
 		(uuid "669fe229-984c-4214-a7fa-bb5e16a7ad26")
 	)
+	(label "D0"
+		(at 25.4 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c000875-2acf-4c59-8e99-53634176eceb")
+	)
+	(label "5V0_IN"
+		(at 229.87 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c232583-bfca-4ad4-be3f-51121ffc2067")
+	)
+	(label "D4_SDA"
+		(at 152.4 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7294851e-a013-4213-9177-bb82f4b568ca")
+	)
+	(label "D7_TX"
+		(at 171.45 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b936c00-1990-4089-ad33-06fe7df00e9f")
+	)
+	(label "D9_MOSI"
+		(at 171.45 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "874513d7-6f6f-4918-9334-bec0781b3fdf")
+	)
 	(label "VCCIO"
 		(at 43.18 60.96 180)
 		(effects
@@ -4141,6 +4574,26 @@
 			(justify right bottom)
 		)
 		(uuid "87fe4f60-3567-4f1e-975d-a912f7964356")
+	)
+	(label "D7_TX"
+		(at 129.54 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a250cab-ca08-426c-869e-3c39779920a3")
+	)
+	(label "D1"
+		(at 152.4 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c40267f-401a-477d-9aa4-ce3e2fc610ee")
 	)
 	(label "VCCIO"
 		(at 129.54 68.58 0)
@@ -4163,7 +4616,7 @@
 		(uuid "988c6165-1440-4da7-b6bc-3b3bd44d59d9")
 	)
 	(label "CRESET_B"
-		(at 213.36 127 180)
+		(at 213.36 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4192,15 +4645,15 @@
 		)
 		(uuid "99f7b402-9dc9-427b-b5f5-4fc6601e2979")
 	)
-	(label "VCCIO"
-		(at 148.59 147.32 180)
+	(label "D10_MISO"
+		(at 129.54 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "9b4d0b10-ea76-420a-9686-ac4df60a9b3d")
+		(uuid "9a279a23-7509-42ae-abcf-1d211b15a17e")
 	)
 	(label "VCCIO"
 		(at 123.19 147.32 180)
@@ -4212,6 +4665,16 @@
 		)
 		(uuid "9f9ccd1c-cb8b-4813-8a95-b644e7bfbd63")
 	)
+	(label "D5_SCL"
+		(at 129.54 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2fbc13e-0e42-48ed-bd10-350ab33bdd23")
+	)
 	(label "3V3"
 		(at 207.01 76.2 180)
 		(effects
@@ -4222,6 +4685,16 @@
 		)
 		(uuid "a3f22f12-3e65-46aa-b35f-cac1f96243dd")
 	)
+	(label "CRESET_B"
+		(at 25.4 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6d1965e-4e66-4b6e-9825-0528ea87700b")
+	)
 	(label "GND"
 		(at 129.54 86.36 0)
 		(effects
@@ -4231,6 +4704,26 @@
 			(justify left bottom)
 		)
 		(uuid "a736be51-8c7d-4ac8-a7e7-25a241105c15")
+	)
+	(label "5V0"
+		(at 199.39 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b849d230-d374-47d7-969f-36f78713fe36")
+	)
+	(label "D6_RX"
+		(at 152.4 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfb70339-e002-40df-9bef-527714769040")
 	)
 	(label "VCC_SPI"
 		(at 219.71 54.61 180)
@@ -4252,18 +4745,18 @@
 		)
 		(uuid "c65583da-69ec-41a1-b0c9-a77b01f7ec09")
 	)
-	(label "VCCIO"
-		(at 161.29 147.32 180)
+	(label "3V3_IN"
+		(at 171.45 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "cdbfbecd-b4aa-4e24-8084-6515a813405a")
+		(uuid "c8584d0f-5a2c-42c9-bdb6-d3361119d22f")
 	)
 	(label "GND"
-		(at 213.36 139.7 180)
+		(at 213.36 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4271,6 +4764,36 @@
 			(justify right bottom)
 		)
 		(uuid "d19fbcc1-d1fa-42f2-9091-c1b544b69fc7")
+	)
+	(label "D3"
+		(at 152.4 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3563d50-9231-40ba-ac58-3ba534c6c0e7")
+	)
+	(label "CRESET_B"
+		(at 43.18 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d61c87ed-def7-4370-8ce3-68cad2213bcc")
+	)
+	(label "CDONE"
+		(at 43.18 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6631709-a2c3-47b0-bc49-0492fed9bb29")
 	)
 	(label "5V0"
 		(at 251.46 96.52 180)
@@ -4291,6 +4814,16 @@
 			(justify right bottom)
 		)
 		(uuid "db1995c9-f74d-4e40-8b0a-4b43ba37a666")
+	)
+	(label "D5_SCL"
+		(at 152.4 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd5c03fb-7a47-46c0-9018-1914f547fd12")
 	)
 	(label "EN3"
 		(at 83.82 165.1 0)
@@ -4362,6 +4895,26 @@
 		)
 		(uuid "e8cf184b-c3ad-4a5d-974d-b7875b598830")
 	)
+	(label "5V0_IN"
+		(at 171.45 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9ada2f0-8c47-4b20-bdee-82cfee541f02")
+	)
+	(label "D6_RX"
+		(at 129.54 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9e97898-5913-4db6-b3ef-d0ae044d1b4d")
+	)
 	(label "GND"
 		(at 110.49 154.94 180)
 		(effects
@@ -4391,6 +4944,26 @@
 			(justify right bottom)
 		)
 		(uuid "f85f9659-a04f-4fb0-ba77-acf49ae9631c")
+	)
+	(label "D2"
+		(at 152.4 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fad5a718-3f9f-46d7-9d31-01a89de64301")
+	)
+	(label "D2"
+		(at 129.54 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc0a604b-aec2-427a-a593-1ba169b8580e")
 	)
 	(label "GND"
 		(at 43.18 55.88 180)
@@ -4429,7 +5002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.2452 62.23 0)
 			(effects
 				(font
@@ -4473,7 +5046,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 213.36 133.35 0)
+		(at 213.36 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4481,8 +5054,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "050fc0c5-9cc0-499a-9a88-ab3af0ccd350")
-		(property "Reference" "C13"
-			(at 217.17 132.0799 0)
+		(property "Reference" "C15"
+			(at 217.17 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +5064,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 217.17 134.6199 0)
+			(at 217.17 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,8 +5072,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 214.3252 137.16 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 214.3252 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +5082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 133.35 0)
+			(at 213.36 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +5091,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 213.36 133.35 0)
+			(at 213.36 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +5108,7 @@
 		(instances
 			(project "Xiao_iCE40LP384_Addon"
 				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4568,7 +5141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 232.1052 62.23 0)
 			(effects
 				(font
@@ -4612,7 +5185,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 182.88 120.65 0)
+		(at 176.53 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4621,7 +5194,7 @@
 		(dnp no)
 		(uuid "1974518e-3e4b-4262-9f51-b55c0b476ab9")
 		(property "Reference" "J2"
-			(at 182.245 107.95 0)
+			(at 175.895 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +5202,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 182.245 110.49 0)
+			(at 175.895 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +5210,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 182.88 120.65 0)
+			(at 176.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +5219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 120.65 0)
+			(at 176.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +5228,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 182.88 120.65 0)
+			(at 176.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,6 +5268,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 25.4 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2680a8a3-dc52-4464-a4d2-3ed1e59185d6")
+		(property "Reference" "R8"
+			(at 27.94 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 27.94 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 23.622 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "709b63ce-db67-4fc5-ad8d-863e118898ca")
+		)
+		(pin "2"
+			(uuid "f8b78533-f2c1-4e7d-846a-87ac8b9c85bc")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 214.63 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4721,7 +5364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.852 82.55 90)
 			(effects
 				(font
@@ -4791,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 154.94 0)
 			(effects
 				(font
@@ -5024,7 +5667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.4552 154.94 0)
 			(effects
 				(font
@@ -5094,7 +5737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 124.1552 154.94 0)
 			(effects
 				(font
@@ -5164,7 +5807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.232 82.55 90)
 			(effects
 				(font
@@ -5233,7 +5876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 244.8052 62.23 0)
 			(effects
 				(font
@@ -5303,7 +5946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.2552 154.94 0)
 			(effects
 				(font
@@ -5347,6 +5990,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 34.29 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59ce436c-8fe5-49f4-b3f1-d4239dc60288")
+		(property "Reference" "R9"
+			(at 36.83 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 36.83 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.512 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "434ea236-cb05-4884-9628-050471a30eb0")
+		)
+		(pin "2"
+			(uuid "5fd1d637-355a-4594-a347-f451b0e9b217")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 222.25 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5373,7 +6086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 220.472 82.55 90)
 			(effects
 				(font
@@ -5425,7 +6138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "682ea75b-eed3-455e-b3d9-049de8ea07dc")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 254 99.0599 0)
 			(effects
 				(font
@@ -5443,7 +6156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 249.682 100.33 90)
 			(effects
 				(font
@@ -5479,7 +6192,7 @@
 		(instances
 			(project "Xiao_iCE40LP384_Addon"
 				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5513,7 +6226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 154.94 0)
 			(effects
 				(font
@@ -5556,6 +6269,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 229.87 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70ccd19b-2ebc-4638-b7cc-7e3e6506d858")
+		(property "Reference" "R5"
+			(at 232.41 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 232.41 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 228.092 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "037377f6-f419-4418-be41-4943a3a99b1d")
+		)
+		(pin "2"
+			(uuid "0f9660ba-5586-41da-a36a-f1e048093763")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 151.13 0)
 		(unit 1)
@@ -5583,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 136.8552 154.94 0)
 			(effects
 				(font
@@ -5653,7 +6436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -5706,7 +6489,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 226.06 133.35 90)
+		(at 226.06 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5715,7 +6498,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1a9dc07-0f78-4067-8aa5-1ada240047be")
 		(property "Reference" "SW1"
-			(at 227.33 132.0799 90)
+			(at 227.33 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +6507,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 227.33 134.6199 90)
+			(at 227.33 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6516,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA"
-			(at 220.98 133.35 0)
+			(at 220.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +6525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 133.35 0)
+			(at 220.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +6534,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 226.06 133.35 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,6 +6552,76 @@
 			(project "Xiao_iCE40LP384_Addon"
 				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e79dfb-c30c-45b3-9314-292cd8717183")
+		(property "Reference" "C13"
+			(at 203.2 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 203.2 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 200.3552 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbfb95a1-caaf-44f4-b847-5b69c20a35ea")
+		)
+		(pin "2"
+			(uuid "88ece6d2-aa1f-4640-ba5c-1da386a99ee3")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5801,7 +6654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 220.6752 62.23 0)
 			(effects
 				(font
@@ -5845,7 +6698,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 161.29 120.65 0)
+		(at 147.32 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5854,7 +6707,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7b83762-338c-4734-b53a-64df269d853b")
 		(property "Reference" "J1"
-			(at 161.925 107.95 0)
+			(at 147.955 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +6715,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 161.925 110.49 0)
+			(at 147.955 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +6723,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 161.29 120.65 0)
+			(at 147.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 120.65 0)
+			(at 147.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +6741,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 161.29 120.65 0)
+			(at 147.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,6 +6780,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 212.09 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cae3ca73-ed08-446b-a709-8a1e23d24ad5")
+		(property "Reference" "C14"
+			(at 215.9 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 215.9 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 213.0552 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5adda2b7-5c4f-46a1-8ff2-a575ccb81c86")
+		)
+		(pin "2"
+			(uuid "f4c3680d-cd1f-4be7-87ea-3e4a138ec824")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 196.85 82.55 0)
 		(unit 1)
@@ -5954,7 +6877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.072 82.55 90)
 			(effects
 				(font
@@ -6139,7 +7062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 187.6552 154.94 0)
 			(effects
 				(font
@@ -6183,7 +7106,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 120.65 0)
+		(at 213.36 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6191,8 +7114,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e21671c7-d2db-4ff8-bc73-13645c00f4a5")
-		(property "Reference" "R6"
-			(at 215.9 119.3799 0)
+		(property "Reference" "R7"
+			(at 215.9 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +7124,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 215.9 121.9199 0)
+			(at 215.9 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,8 +7132,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 211.582 120.65 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 211.582 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 120.65 0)
+			(at 213.36 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +7151,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 213.36 120.65 0)
+			(at 213.36 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +7168,7 @@
 		(instances
 			(project "Xiao_iCE40LP384_Addon"
 				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6278,7 +7201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.8152 62.23 0)
 			(effects
 				(font
@@ -6322,7 +7245,7 @@
 	)
 	(symbol
 		(lib_id "Seeed_Studio_XIAO_Series:XIAO-SAMD21-SMD")
-		(at -81.28 120.65 0)
+		(at 167.64 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6331,7 +7254,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6f0232e-ad9b-4983-bbeb-857f4892bba5")
 		(property "Reference" "U4"
-			(at -76.5967 142.24 0)
+			(at 172.3233 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +7263,7 @@
 			)
 		)
 		(property "Value" "XIAO-SAMD21-SMD"
-			(at -76.5967 144.78 0)
+			(at 172.3233 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +7272,7 @@
 			)
 		)
 		(property "Footprint" "XIAO Footprints and Symbols:XIAO-RP2040-SMD"
-			(at -90.17 115.57 0)
+			(at 158.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +7281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -90.17 115.57 0)
+			(at 158.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +7290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -81.28 120.65 0)
+			(at 167.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -18,3 +18,4 @@ A collection of add-on boards containing an iCE40 FPGA and the required supporti
 ## Addon board mockups
 Work-in-progress screenshots of boards still being designed.
 ![Pi Pico floorplan](<Documentation/readme_images/Pi Pico floorplan.JPG>)
+![Xiao floorplan](<Documentation/readme_images/Xiao floorplan.JPG>)
