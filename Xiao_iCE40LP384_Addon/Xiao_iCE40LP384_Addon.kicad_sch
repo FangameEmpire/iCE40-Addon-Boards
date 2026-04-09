@@ -809,6 +809,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3627,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 114.3) (xy 251.46 116.84)
+			(xy 251.46 120.65) (xy 251.46 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3657,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 196.85 88.9)
+			(xy 184.15 86.36) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3677,7 +3784,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 76.2) (xy 207.01 78.74)
+			(xy 196.85 76.2) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3687,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 214.63 88.9)
+			(xy 209.55 86.36) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +3894,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 76.2) (xy 196.85 78.74)
+			(xy 184.15 76.2) (xy 184.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3837,7 +3944,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 86.36) (xy 207.01 88.9)
+			(xy 196.85 86.36) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3897,7 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 104.14) (xy 251.46 106.68)
+			(xy 251.46 110.49) (xy 251.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3907,7 +4014,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 76.2) (xy 214.63 78.74)
+			(xy 209.55 76.2) (xy 209.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3947,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 76.2) (xy 214.63 76.2)
+			(xy 196.85 76.2) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4006,7 +4113,7 @@
 		(uuid "03b0e781-e8b1-4353-aea1-dab2af250a79")
 	)
 	(label "VCCIO"
-		(at 214.63 88.9 180)
+		(at 209.55 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4126,7 +4233,7 @@
 		(uuid "2c875382-fa9f-451c-be99-8207844e5020")
 	)
 	(label "1V2"
-		(at 196.85 76.2 180)
+		(at 184.15 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4194,6 +4301,16 @@
 			(justify right bottom)
 		)
 		(uuid "499b02fe-b9be-43ed-a6fa-339eaa7bebda")
+	)
+	(label "GND"
+		(at 245.11 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ad13aae-a282-4329-a437-ee8ca3eb8ab0")
 	)
 	(label "VPP"
 		(at 129.54 78.74 0)
@@ -4306,7 +4423,7 @@
 		(uuid "650d5992-9f09-4669-9e65-86a80aa78470")
 	)
 	(label "VCC"
-		(at 196.85 88.9 180)
+		(at 184.15 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4476,7 +4593,7 @@
 		(uuid "a2fbc13e-0e42-48ed-bd10-350ab33bdd23")
 	)
 	(label "3V3"
-		(at 207.01 76.2 180)
+		(at 196.85 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4536,7 +4653,7 @@
 		(uuid "c5de8e98-471c-4ac9-8750-2df8a444b68d")
 	)
 	(label "GND"
-		(at 251.46 116.84 180)
+		(at 251.46 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4606,7 +4723,7 @@
 		(uuid "d6631709-a2c3-47b0-bc49-0492fed9bb29")
 	)
 	(label "5V0"
-		(at 251.46 96.52 180)
+		(at 251.46 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4676,7 +4793,7 @@
 		(uuid "e325ba14-9a58-4db1-ad92-9100363e8995")
 	)
 	(label "VCC_SPI"
-		(at 207.01 88.9 180)
+		(at 196.85 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4963,6 +5080,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f2959f-bb6e-4d66-8b63-b77de41c7409")
+		(property "Reference" "TP1"
+			(at 186.69 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 186.69 93.4719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42a48ce-d244-4a2a-b7fb-c769a8e6e4de")
+		)
+		(instances
+			(project ""
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 213.36 124.46 0)
 		(unit 1)
@@ -5027,6 +5211,73 @@
 			(project "Xiao_iCE40LP384_Addon"
 				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 196.85 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10b9e896-6449-43f7-84ae-4421568eea4d")
+		(property "Reference" "TP2"
+			(at 199.39 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 199.39 93.4719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d7b8c6d-50a5-45eb-bbd4-0d022831716c")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5455,35 +5706,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 214.63 82.55 0)
+		(lib_id "Connector:TestPoint")
+		(at 222.25 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d8e1aff-05ad-4d2c-8e6b-7e67c0ecf334")
-		(property "Reference" "R3"
-			(at 217.17 81.2799 0)
+		(uuid "27817618-e4e2-42e8-9be3-bd090313ca04")
+		(property "Reference" "TP4"
+			(at 224.79 90.9319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0"
-			(at 217.17 83.8199 0)
+		(property "Value" "TestPoint"
+			(at 224.79 93.4719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 212.852 82.55 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 217.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5743,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 82.55 0)
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36442acc-c135-4973-82ce-6ca3865cd748")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8e1aff-05ad-4d2c-8e6b-7e67c0ecf334")
+		(property "Reference" "R3"
+			(at 212.09 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 212.09 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 207.772 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5819,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 82.55 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +6217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 82.55 0)
+		(at 196.85 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5908,7 +6226,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eb4545b-a5d9-4ca7-b807-e0981e98901e")
 		(property "Reference" "R2"
-			(at 209.55 81.2799 0)
+			(at 199.39 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +6235,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 209.55 83.8199 0)
+			(at 199.39 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +6244,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.232 82.55 90)
+			(at 195.072 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +6253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6262,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6566,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 100.33 0)
+		(at 251.46 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6257,7 +6575,7 @@
 		(fields_autoplaced yes)
 		(uuid "682ea75b-eed3-455e-b3d9-049de8ea07dc")
 		(property "Reference" "R7"
-			(at 254 99.0599 0)
+			(at 254 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +6584,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 254 101.5999 0)
+			(at 254 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6593,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 249.682 100.33 90)
+			(at 249.682 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 100.33 0)
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6611,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 251.46 100.33 0)
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,6 +6775,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 245.11 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83766fdb-7f5a-4095-a549-a84ccbb75698")
+		(property "Reference" "TP5"
+			(at 247.65 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 93.4719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 245.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5809056-0f0a-4e71-9727-5e5a015c7f72")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 151.13 0)
 		(unit 1)
@@ -6545,7 +6930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "4.7u"
 			(at 130.81 177.7999 0)
 			(effects
 				(font
@@ -6598,7 +6983,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 251.46 110.49 90)
+		(at 251.46 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6607,7 +6992,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d086faf-8562-4fe4-ab44-7053a3c93a8d")
 		(property "Reference" "D1"
-			(at 255.27 110.8074 90)
+			(at 255.27 117.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +7001,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 255.27 113.3474 90)
+			(at 255.27 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,8 +7009,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 251.46 110.49 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +7019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 110.49 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +7028,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 251.46 110.49 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +7037,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 251.46 110.49 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +7354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "4.7u"
 			(at 143.51 177.7999 0)
 			(effects
 				(font
@@ -7308,35 +7693,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 196.85 82.55 0)
+		(lib_id "Connector:TestPoint")
+		(at 209.55 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ddec77d8-e9b2-43b4-bf1f-bd5d665ca794")
-		(property "Reference" "R1"
-			(at 199.39 81.2799 0)
+		(uuid "d9c12564-896c-4ee3-b4ec-b76aafdd5115")
+		(property "Reference" "TP3"
+			(at 212.09 90.9319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0"
-			(at 199.39 83.8199 0)
+		(property "Value" "TestPoint"
+			(at 212.09 93.4719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 195.072 82.55 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7730,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 82.55 0)
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b25e08-d65f-4ce8-ba3f-1a43a0b296bd")
+		)
+		(instances
+			(project "Xiao_iCE40LP384_Addon"
+				(path "/97944f91-86d2-439e-873e-e8c53a6a8c8c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddec77d8-e9b2-43b4-bf1f-bd5d665ca794")
+		(property "Reference" "R1"
+			(at 186.69 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 186.69 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.372 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7806,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.85 82.55 0)
+			(at 184.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +8308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "4.7u"
 			(at 156.21 177.7999 0)
 			(effects
 				(font
